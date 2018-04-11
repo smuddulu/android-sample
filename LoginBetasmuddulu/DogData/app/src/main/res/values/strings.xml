@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DogData</string>
+    <string name="email">sravanim@firebaseio.com</string>
+    <string name="password">chitti</string>
+    <string name="enter_emailId">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="sign_in">LogIn</string>
+    <string name="create_acc">SignUp</string>
+    <string name="logintext" >LogIn</string>
+    <string name="firstnametext">First Name</string>
+    <string name="lastnametext">Last Name</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/launch_logo"
+        android:layout_margin="15dp"
+        android:padding="50dp"/>
+
+    <EditText android:id="@+id/editEmail"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/enter_emailId"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/shape"
+        />
+
+    <EditText android:id="@+id/editPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:hint="@string/enter_password"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_acc"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="@color/login_help_color"/>
+
+        <Button
+            android:id="@+id/forgotPwdId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_pwd"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/login_help_color"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="@string/logintext"
+        android:background="@drawable/log_in_button"
+        android:textSize="20sp"
+        android:textColor="@color/whiteColor"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>
